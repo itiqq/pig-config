@@ -2,12 +2,12 @@ server:
   port: 5001
 
 spring:
-  # zipkin:
-  #     base-url: http://localhost:5002
-  # sleuth:
-  #   enabled: true
-  #   sampler:
-  #     percentage: 1
+  zipkin:
+    base-url: http://localhost:5002
+  sleuth:
+    enabled: true
+    sampler:
+      percentage: 1
   boot:
     admin:
       turbine:

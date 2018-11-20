@@ -6,10 +6,10 @@ redis:
     expiration: 3600
 
 # sleuth配置
-#spring:
-#  zipkin:
-#    rabbitmq:
-#      queue: zipkin
+spring:
+  zipkin:
+    rabbitmq:
+      queue: zipkin
   sleuth:
     sampler:
       percentage: 0.2
